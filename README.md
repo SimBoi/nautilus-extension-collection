@@ -28,7 +28,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py https://raw.githubusercontent.com/SimBoi/nautilus-git-clone/main/nautilus-git-clone.py
-   	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
+	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	# 3. restart nautilus
 	nautilus -q
 	```
