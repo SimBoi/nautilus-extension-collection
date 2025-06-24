@@ -13,6 +13,9 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Git Clone To Current Directory](https://github.com/SimBoi/nautilus-git-clone)  
   Git clone dialog to clone a url to the current directory
 
+- [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)
+  An extension for Nautilus, adds an additional copy menu to the right-click menu to allow copying of the path/name for files and directories.
+
 ## 🚀 Installation
 
 1. Run in the terminal:
@@ -25,6 +28,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py https://raw.githubusercontent.com/SimBoi/nautilus-git-clone/main/nautilus-git-clone.py
+   	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	# 3. restart nautilus
 	nautilus -q
 	```
@@ -37,6 +41,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py
+ 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py
 	# restart Nautilus
 	nautilus -q
 	````
