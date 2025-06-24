@@ -2,7 +2,7 @@
 
 A collection of simple and useful Python extensions for the Nautilus file manager, built with `python3-nautilus`.
 
-## 📦 Extensions List
+## 📦 Extension List
 
 - [Open Directory in VS Code](https://github.com/SimBoi/nautilus-open-in-vscode)  
   Right-click directory/background to open folder in vs code.
@@ -29,6 +29,18 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	nautilus -q
 	```
 2. Profit
+
+## 🗑️ Uninstallation
+
+1. Run in the terminal:
+	```bash
+	rm -f ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py
+	rm -f ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py
+	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py
+	# restart Nautilus
+	nautilus -q
+	````
+ 2. Unprofit
 
 ## 🛠️ Notes
 
