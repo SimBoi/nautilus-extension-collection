@@ -10,11 +10,11 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Create New File Dialog](https://github.com/SimBoi/nautilus-create-new-file)  
   Create new file dialog to create files with custom names and extensions instead of the default templates.
 
-- [Git Clone To Current Directory](https://github.com/SimBoi/nautilus-git-clone)  
-  Git clone dialog to clone a url to the current directory
+- [Git Clone To Current Directory](https://github.com/SimBoi/nautilus-git-operations)  
+  Git operations on the current directory.
 
 - [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)
-  An extension for Nautilus, adds an additional copy menu to the right-click menu to allow copying of the path/name for files and directories.
+  Copy the path/name of files and directories.
 
 ## 🚀 Installation
 
@@ -27,7 +27,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	mkdir -p ~/.local/share/nautilus-python/extensions
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py https://raw.githubusercontent.com/SimBoi/nautilus-git-clone/main/nautilus-git-clone.py
+	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	# 3. restart nautilus
 	nautilus -q
@@ -40,7 +40,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py
-	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-clone.py
+	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py
  	rm -f ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py
 	# restart Nautilus
 	nautilus -q
