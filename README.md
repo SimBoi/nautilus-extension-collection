@@ -13,7 +13,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Git Clone To Current Directory](https://github.com/SimBoi/nautilus-git-operations)  
   Git operations on the current directory.
 
-- [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)
+- [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)  
   Copy the path/name of files and directories.
 
 ## 🚀 Installation
