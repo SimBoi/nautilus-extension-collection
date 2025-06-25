@@ -51,7 +51,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 
 * These extensions are written for GNOME-based systems using Nautilus.
 * Requires GTK 4
-* Not tested but probably compatible with most modern Linux distributions using GNOME.
+* Only tested on Debian Trixie with Gnome 48 but probably compatible with most modern Linux distributions using GNOME.
 
 ---
 
