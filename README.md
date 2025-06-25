@@ -10,7 +10,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Create New File Dialog](https://github.com/SimBoi/nautilus-create-new-file)  
   Create new file dialog to create files with custom names and extensions instead of the default templates.
 
-- [Git Operations on The Current Directory](https://github.com/SimBoi/nautilus-git-operations)  
+- [Git Operations](https://github.com/SimBoi/nautilus-git-operations)  
   Git operations on the current directory.
 
 - [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)  
