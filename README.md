@@ -20,9 +20,9 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 
 1. Run in the terminal:
    ```bash
-    # 1. install git
+    # 1. install packages
 	sudo apt update
-	sudo apt install -y git
+	sudo apt install -y git curl python3-nautilus
 	# 2. download the extension scripts
 	mkdir -p ~/.local/share/nautilus-python/extensions
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
