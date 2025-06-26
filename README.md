@@ -4,17 +4,21 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 
 ## 📦 Extension List
 
+- [Regex Search For Nautilus](https://github.com/SimBoi/nautilus-regex-select/)  
+  Regex search against file content or filenames, or both! right from the nautilus right-click nenu.
+  
+- [Git Operations](https://github.com/SimBoi/nautilus-git-operations)  
+  Git operations on the current directory.
+
 - [Open Directory in VS Code](https://github.com/SimBoi/nautilus-open-in-vscode)  
   Right-click directory/background to open folder in vs code.
 
 - [Create New File Dialog](https://github.com/SimBoi/nautilus-create-new-file)  
   Create new file dialog to create files with custom names and extensions instead of the default templates.
 
-- [Git Operations](https://github.com/SimBoi/nautilus-git-operations)  
-  Git operations on the current directory.
-
 - [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)  
   Copy the path/name of files and directories.
+  
 
 ## 🚀 Installation
 
@@ -22,13 +26,14 @@ A collection of simple and useful Python extensions for the Nautilus file manage
    ```bash
     # 1. install packages
 	sudo apt update
-	sudo apt install -y git curl python3-nautilus
+	sudo apt install -y git curl python3-nautilus python3-charset-normalizer
 	# 2. download the extension scripts
 	mkdir -p ~/.local/share/nautilus-python/extensions
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
+	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
 	# 3. restart nautilus
 	nautilus -q
 	```
@@ -42,6 +47,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py
  	rm -f ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py
+ 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py
 	# restart Nautilus
 	nautilus -q
 	````
