@@ -40,7 +40,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-file-expiry.py https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/nautilus-file-expiry.py
 	sudo mkdir -p /opt/file-expiry/
 	sudo curl -L -o /opt/file-expiry/delete-if-inode-matches.sh https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/delete-if-inode-matches.sh
-	sudo chmod -x /opt/file-expiry/delete-if-inode-matches.sh
+	sudo chmod +x /opt/file-expiry/delete-if-inode-matches.sh
 	# 3. restart nautilus
 	nautilus -q
 	```
