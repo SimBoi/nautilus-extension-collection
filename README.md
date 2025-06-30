@@ -10,8 +10,8 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [File Expity](https://github.com/SimBoi/nautilus-file-expiry)  
   Schedule files to be automatically deleted at a later time.
 
-- [Regex Search For Nautilus](https://github.com/SimBoi/nautilus-regex-select/)  
-  Regex search against file content or filenames, or both! right from the nautilus right-click nenu.
+- [Regex Select](https://github.com/SimBoi/nautilus-regex-select/)  
+  Regex search against file content or filenames, or both.
 
 - [Open Directory in VS Code](https://github.com/SimBoi/nautilus-open-in-vscode)  
   Right-click directory/background to open folder in vs code.
