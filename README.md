@@ -52,7 +52,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	nautilus -q
 	```
-6. Profit
+5. Profit
 
 ### Arch:
 
@@ -81,7 +81,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	nautilus -q
 	```
-6. Profit
+5. Profit
 
 ### Fedora:
 
@@ -110,11 +110,11 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	nautilus -q
 	```
-6. Profit
+5. Profit
 
 ## 🗑️ Uninstallation
 
-### Debian/Arch:
+### Debian/Arch/Fedora:
 
 1. Run in the terminal:
 	```bash
