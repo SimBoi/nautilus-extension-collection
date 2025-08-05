@@ -7,7 +7,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Git Operations](https://github.com/SimBoi/nautilus-git-operations)  
   Git operations on the current directory.
 
-- [File Expity](https://github.com/SimBoi/nautilus-file-expiry)  
+- [File Expiry](https://github.com/SimBoi/nautilus-file-expiry)  
   Schedule files to be automatically deleted at a later time.
 
 - [Regex Select](https://github.com/SimBoi/nautilus-regex-select/)  
