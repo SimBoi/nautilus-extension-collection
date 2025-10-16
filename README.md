@@ -36,7 +36,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	mkdir -p ~/.local/share/nautilus-python/extensions
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
+	curl -fsSL https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/install.sh | bash
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
@@ -65,7 +65,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	mkdir -p ~/.local/share/nautilus-python/extensions
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
+	curl -fsSL https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/install.sh | bash
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
@@ -94,7 +94,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	```bash
 	mkdir -p ~/.local/share/nautilus-python/extensions
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py https://raw.githubusercontent.com/SimBoi/nautilus-open-in-vscode/main/nautilus-open-in-vscode.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/nautilus-create-new-file.py
+	curl -fsSL https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/install.sh | bash
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
@@ -119,7 +119,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 1. Run in the terminal:
 	```bash
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-open-in-vscode.py
-	rm -f ~/.local/share/nautilus-python/extensions/nautilus-create-new-file.py
+	curl -fsSL https://raw.githubusercontent.com/SimBoi/nautilus-create-new-file/main/uninstall.sh | bash
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py
  	rm -f ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py
  	rm -f ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py
