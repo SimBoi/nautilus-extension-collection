@@ -7,21 +7,21 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Git Operations](https://github.com/SimBoi/nautilus-git-operations)  
   Git operations on the current directory.
 
-- [File Expiry](https://github.com/SimBoi/nautilus-file-expiry)  
-  Schedule files to be automatically deleted at a later time.
+- [Create New File Dialog](https://github.com/SimBoi/nautilus-create-new-file)  
+  Create new file dialog to create files with custom names and extensions instead of the default templates.
 
 - [Regex Select](https://github.com/SimBoi/nautilus-regex-select/)  
   Regex search against file content or filenames, or both.
 
-- [Open Directory in VS Code](https://github.com/SimBoi/nautilus-open-in-vscode)  
-  Right-click directory/background to open folder in vs code.
-
-- [Create New File Dialog](https://github.com/SimBoi/nautilus-create-new-file)  
-  Create new file dialog to create files with custom names and extensions instead of the default templates.
+- [File Expiry](https://github.com/SimBoi/nautilus-file-expiry)  
+  Schedule files to be automatically deleted at a later time.
 
 - [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)  
   Copy the path/name of files and directories.
-  
+
+- [Open Directory in VS Code](https://github.com/SimBoi/nautilus-open-in-vscode)  
+  Right-click directory/background to open folder in vs code.
+
 
 ## 🚀 Installation
 
