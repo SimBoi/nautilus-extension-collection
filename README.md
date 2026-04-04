@@ -1,8 +1,8 @@
-# 🐚 Nautilus Extension Collection
+# Nautilus Extension Collection
 
 A collection of simple and useful Python extensions for the Nautilus file manager, to make my life slightly easier.
 
-## 📦 Extension List
+## Extension List
   
 - [Git Operations](https://github.com/SimBoi/nautilus-git-operations)  
   Git operations on the current directory.
@@ -13,9 +13,6 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 - [Regex Select](https://github.com/SimBoi/nautilus-regex-select/)  
   Regex search against file content or filenames, or both.
 
-- [File Expiry](https://github.com/SimBoi/nautilus-file-expiry)  
-  Schedule files to be automatically deleted at a later time.
-
 - [More Copy Options](https://github.com/SimBoi/nautilus-more-copy/)  
   Copy the path/name of files and directories.
 
@@ -23,7 +20,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
   Right-click directory/background to open folder in vs code.
 
 
-## 🚀 Installation
+## Installation
 
 ### Debian:
 
@@ -40,19 +37,12 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-file-expiry.py https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/nautilus-file-expiry.py
 	```
-3. Only for FileExpiry extension, install the shell script to be scheduled
-	```bash
-	sudo mkdir -p /opt/file-expiry/
-	sudo curl -L -o /opt/file-expiry/delete-if-inode-matches.sh https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/delete-if-inode-matches.sh
-	sudo chmod +x /opt/file-expiry/delete-if-inode-matches.sh
-	```
-4. Restart nautilus
+3. Restart nautilus
 	```bash
 	nautilus -q
 	```
-5. Profit
+4. Profit
 
 ### Arch:
 
@@ -69,19 +59,12 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-file-expiry.py https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/nautilus-file-expiry.py
 	```
-3. Only for FileExpiry extension, install the shell script to be scheduled
-	```bash
-	sudo mkdir -p /opt/file-expiry/
-	sudo curl -L -o /opt/file-expiry/delete-if-inode-matches.sh https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/delete-if-inode-matches.sh
-	sudo chmod +x /opt/file-expiry/delete-if-inode-matches.sh
-	```
-4. Restart nautilus
+3. Restart nautilus
 	```bash
 	nautilus -q
 	```
-5. Profit
+4. Profit
 
 ### Fedora:
 
@@ -98,21 +81,14 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py https://raw.githubusercontent.com/SimBoi/nautilus-git-operations/main/nautilus-git-operations.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py https://raw.githubusercontent.com/SimBoi/nautilus-more-copy/main/nautilus-more-copy.py
 	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py https://raw.githubusercontent.com/SimBoi/nautilus-regex-select/main/nautilus-regex-select.py
-	curl -L -o ~/.local/share/nautilus-python/extensions/nautilus-file-expiry.py https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/nautilus-file-expiry.py
 	```
-3. Only for FileExpiry extension, install the shell script to be scheduled
-	```bash
-	sudo mkdir -p /opt/file-expiry/
-	sudo curl -L -o /opt/file-expiry/delete-if-inode-matches.sh https://raw.githubusercontent.com/simboi/nautilus-file-expiry/main/delete-if-inode-matches.sh
-	sudo chmod +x /opt/file-expiry/delete-if-inode-matches.sh
-	```
-4. Restart nautilus
+3. Restart nautilus
 	```bash
 	nautilus -q
 	```
-5. Profit
+4. Profit
 
-## 🗑️ Uninstallation
+## Uninstallation
 
 ### Debian/Arch/Fedora:
 
@@ -123,20 +99,17 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 	rm -f ~/.local/share/nautilus-python/extensions/nautilus-git-operations.py
  	rm -f ~/.local/share/nautilus-python/extensions/nautilus-more-copy.py
  	rm -f ~/.local/share/nautilus-python/extensions/nautilus-regex-select.py
-	rm -f ~/.local/share/nautilus-python/extensions/nautilus-file-expiry.py
- 	sudo rm -rf /opt/file-expiry
  	```
 2. Restart Nautilus
 	```bash
 	nautilus -q
 	````
-4. Unprofit
+3. Unprofit
 
-## 🛠️ Notes
+## Notes
 
-* These extensions are written for GNOME-based systems using Nautilus.
 * Requires GTK 4
-* Only tested on Debian Trixie with Gnome 48 but probably compatible with most modern Linux distributions using GNOME.
+* Only tested on Arch linux running Hyprland, probably compatible with other setups.
 
 ---
 
