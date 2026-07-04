@@ -24,7 +24,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 1. Install required packages:
 	```bash
 	sudo apt update
-	sudo apt install -y git curl python3-nautilus python3-charset-normalizer at python3-polib
+	sudo apt install -y git curl python3-nautilus python3-polib
 	```
 2. Install the extension scripts. To exclude an extension, remove the corresponding curl command
 	```bash
@@ -45,7 +45,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 1. Install required packages:
 	```bash
 	sudo pacman -Syy
-	sudo pacman -S git curl nautilus-python python-charset-normalizer at python-polib
+	sudo pacman -S git curl nautilus-python python-polib
 	```
 2. Install the extension scripts. To exclude an extension, remove the corresponding curl command
 	```bash
@@ -66,7 +66,7 @@ A collection of simple and useful Python extensions for the Nautilus file manage
 1. Install required packages:
 	```bash
 	sudo dnf update
-	sudo dnf install -y git curl nautilus-python python3-charset-normalizer at python3-polib
+	sudo dnf install -y git curl nautilus-python python3-polib
 	```
 2. Install the extension scripts. To exclude an extension, remove the corresponding curl command
 	```bash
